@@ -1,6 +1,57 @@
 # dexbird
 Simple board application
 
+## Setup
+
+```shell
+yarn
+```
+
+or 
+
+```shell
+npm install
+```
+
+## Usage
+
+Copy `src/config/boards.samples.js` to  `src/config/boards.js` and configure with this properties:
+
+```shell
+cp src/config/boards.samples.js src/config/boards.js
+```
+
+## Configuration
+
+```js
+[
+  [
+    {
+      title: 'Users',
+      url: '', // optional
+      value: 25,
+      httpRequestMethod: 'GET',
+      reloadTime: 30
+    },
+  ],
+]
+```
+
+The `url` property is optional.
+
+The api should reponse this json:
+
+
+```json
+{
+  "item":[
+    {
+      "value": 0
+    }
+  ]
+}
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -27,3 +78,6 @@ The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
 See the section about [deployment](#deployment) for more information.
+
+## License
+The MIT License (MIT)
