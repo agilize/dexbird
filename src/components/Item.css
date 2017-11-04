@@ -1,0 +1,15 @@
+.Item .card {
+  border-radius: 0;
+}
+
+.Item .card .card-header {
+  border-radius: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+.Item .card .card-body .value {
+  font-size: 63px;
+}
+

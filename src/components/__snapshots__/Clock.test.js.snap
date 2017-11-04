@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Clock render like snapshot 1`] = `
+<div>
+  11:56:37 AM
+</div>
+`;
+
+exports[`Clock render with the class name 1`] = `
+<div
+  className="florentina"
+>
+  11:56:37 AM
+</div>
+`;
